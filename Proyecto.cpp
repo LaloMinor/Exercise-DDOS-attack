@@ -22,8 +22,8 @@ int main(void){
 
 
 string texto(){
-	string IP = "Ping InsertIPHere -n 30 -l 62500";		//
-	string nuevo = "start /b";							//Will start a new CMD
+	string IP = "Ping InsertIPHere -n 30 -l 62500";		
+	string nuevo = "start /b";							
 	string ejec = "&";
 	string esp = " ";
 	string comando, comandoY;
