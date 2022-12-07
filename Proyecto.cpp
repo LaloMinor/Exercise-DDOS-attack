@@ -23,7 +23,7 @@ int main(void){
 
 string texto(){
 	string IP = "Ping InsertIPHere -n 30 -l 62500";		//
-	string nuevo = "start";							//Will start a new CMD
+	string nuevo = "start /b";							//Will start a new CMD
 	string ejec = "&";
 	string esp = " ";
 	string comando, comandoY;
