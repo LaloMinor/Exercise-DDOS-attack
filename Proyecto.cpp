@@ -19,7 +19,7 @@ int main(void){
 
 
 string texto(){
-	string IP = "ping 192.168.1.65 -n 30 -l 62500";
+	string IP = "InsertIPHere -n 30 -l 62500";
 	string nuevo = "start";
 	string ejec = "&";
 	string esp = " ";
